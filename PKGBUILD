@@ -7,7 +7,7 @@ arch=(x86_64)
 url="https://github.com/iconized/commitizen-iconized"
 license=('GPL')
 makedepends=(git go)
-source=("https://github.com/iconized/commitizen-iconized/archive/$pkgver.tar.gz")
+source=("https://github.com/iconized/${pkgname}/archive/refs/tags/${pkgver}.tar.gz")
 
 build() {
 	cd "$pkgname-$pkgver"
